@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+}
+
+.main-container{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.nav-bar{
+    width: 95%;
+    padding: 15px 0px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    height: 0.2px;
+    background-color: rgb(235, 235, 235);
+}
+
+.logo{
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    /* color: black; */
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.all-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 8px auto; */
+    width: 320px;
+    padding: 8px 8px;
+    border: 1px solid lightgray;
+    box-shadow: 0 1px 5px 1px lightgray;
+    border-radius: 25px;
+    font-weight: 400;
+}
+
+.all-links a:not(:nth-child(3)){
+    color: black;
+    font-weight: 500;
+}
+
+.all-links > a {
+    color: gray;
+}
+
+.search-btn{
+    background-color: #ff385c;
+    border: none;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+.price-info{
+    margin: 15px auto;
+    padding: 4px 10px;
+    width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.t-price{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.price-info p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: lightgray;
+}
+
+.btn{
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    padding: 1px 1px;
+    background-color: gray;
+}
+
+.circle{
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 100%;
+}
+
+.price-msg{
+    width: 60%;
+}
+
+.user-info{
+    width: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-info a {
+    color: black;
+    font-weight: 500;
+}
+
+.profile-btn{
+    border: 1px solid lightgray;
+    padding: 8px 12px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: black;
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.room-cards-container{
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    gap: 1px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    width: 300px;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+    margin: 30px auto;
+}
+
+.room{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.image-like{
+    position: relative;
+}
+
+.like{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: rgba(189, 189, 189, 0.247);
+}
+
+.room-info-container{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+
+.rating{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.info{
+    margin-top: -15px;
+}
+
+.location{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dictance, .date{
+    margin-top: -10px;
+}
+
+.price{
+    font-size: 16px;
+}
+
+span{
+    color: gray;
+    font-weight: 400;
+}
